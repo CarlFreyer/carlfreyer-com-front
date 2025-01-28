@@ -8,7 +8,10 @@ function App() {
   fetch("https://test1.carlfreyer.com", {
     method: "POST"
   }).then(response => {
-    console.log(response)
+    if (response.ok()){
+      response.text().then(responseText => console.log(responseText))
+      
+    }
   })
   return (
     <>
