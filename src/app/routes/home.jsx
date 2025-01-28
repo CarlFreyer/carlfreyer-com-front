@@ -19,7 +19,7 @@ let Home = () => {
                     </div>
                     <h1>Hello and welcome!</h1>
                     <h2>This website is undergoing some construction right now. Please watch your step!</h2>
-                    <div class="fullWidthContainer">
+                    <div className="fullWidthContainer">
                         <a href="https://www.linkedin.com/in/carl-k-freyer/" className="hiddenLink leftImageRightText linkedInColors">
                             <div>
                                 <LinkedInLogo className="smallLogo" alt="LinkedIn Logo"/>
