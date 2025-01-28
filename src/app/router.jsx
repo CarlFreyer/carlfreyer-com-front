@@ -6,8 +6,8 @@ let Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Redirect href="https://www.linkedin.com/in/carl-k-freyer/"/>} />
-        <Route path="home" element={<Home/>} />
+        <Route path="/linkedin" element={<Redirect href="https://www.linkedin.com/in/carl-k-freyer/"/>} />
+        <Route path="" element={<Home/>} />
       </Routes>
     </BrowserRouter>
     )

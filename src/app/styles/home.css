@@ -1,0 +1,42 @@
+.main_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40vh;
+}
+
+.linkedInColors{
+    color: #3e3c3c;
+    transition: .5s;
+}
+
+.linkedInColors:hover{
+    color: #0077B5;
+}
+
+.fullWidthContainer{
+    width: 100%;
+}
+
+.multiLogoContainer{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.multiLogoContainer svg{
+    height: 100px;
+    width: 100px;
+    transition: .5s;
+}
+
+.multiLogoContainer svg:hover{
+    color: #FFC067;
+}
+
+.leftAligned{
+    display: flex;
+    justify-content: left;
+    width: max-content;
+}
