@@ -1,4 +1,3 @@
-import '../app.css'
 import Router from './router.jsx'
 
 let App = () => {
