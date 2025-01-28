@@ -5,7 +5,11 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  fetch("https://test1.carlfreyer.com", {
+    method: "POST"
+  }).then(response => {
+    console.log(response)
+  })
   return (
     <>
       <div>
