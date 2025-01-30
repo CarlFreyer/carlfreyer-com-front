@@ -27,7 +27,7 @@ RUN npm i -g serve
 
 COPY . .
 
-RUN vite build --mode production
+RUN npm run build
 
 EXPOSE 3000
 
