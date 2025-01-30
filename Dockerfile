@@ -27,11 +27,11 @@ RUN npm i -g serve
 
 COPY . .
 
-RUN npm run build
+RUN npm run build --mode production
 
 EXPOSE 3000
 
-CMD [ "serve", "-s", "dist", "--mode production"]
+CMD [ "serve", "-s", "dist"]
 
 
 # [END cloudrun_helloworld_dockerfile]
